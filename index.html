@@ -1,0 +1,55 @@
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let Me Search For You</title>
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+
+  </head>
+  <body>
+  <div id="note">
+      Use <em>http://akansh.com/lmsfu/?q= { YOUR QUERY }</em> to see it in action.
+  </div>
+  <div class="row logo">
+      <div class="columns small-12 text-center qlogo">
+          <img src="img/logo.png" width="270" alt="Google">
+      </div>
+  </div>
+  <div class="row">
+      <div class="small-12 columns text-center">
+          <form method="post">
+          <input name="q" class="query" id="query">
+
+      </div>
+  </div>
+  <div class="row">
+      <div class="columns small-12 text-center">
+        <input type="submit" class="search" value="Google Search" id="searchbutton" > <input type="submit" class="search" value="I`m Feeling Lucky">
+          </form>
+                 </div>
+  </div>
+  <img src="img/cursor.png" width="14" class="cursor" id="cursor"/>
+  <img src="img/textselect.png" class="blink" />
+  <footer>
+  <div class="row" id="copyright">
+      <div class="columns small-12" >
+          <span class="google">© Google is a trademark of Google Inc.| Not associated with Google™ in any way.</span>
+      </div>
+  </div>
+  </footer>
+
+  <!--<span>Move the mouse over the div.</span>
+  <span>&nbsp;</span>-->
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+  <script src="js/custom.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+
+  </body>
+</html>
